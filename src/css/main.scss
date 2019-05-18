@@ -1,0 +1,67 @@
+main{
+    width: 100%;
+    height: 740px;
+}
+main .nav{
+    width: 100%;
+    height: 740px;
+    float: left;
+}
+main .nav ul:nth-child(1){
+    width: 90%;
+    height: 310px;
+    padding-left: 23px;
+}
+main .nav ul:nth-child(1) .disp{
+    float: left;
+    width: 100%;
+    //height: 40px;
+}
+main .nav ul:nth-child(1) .disp a{
+    height: 20px;
+    float: left;
+    padding: 7px 0px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bolder;
+}
+main .nav ul:nth-child(1) .disp ul{
+    width: 90%;
+    display: none;
+}
+main .nav ul:nth-child(1) .disp ul li{
+    width: 100%;
+    height: 27px;
+    float: left;
+}
+main .nav ul:nth-child(1) .disp ul li a{
+    height: 13px;
+    float: left;
+    padding: 7px 0px;
+    color: #000000;
+    font-size: 12px;
+}
+.show{
+    display:inline-block;
+}
+main .nav ul:nth-child(1) li:nth-child(6) a{
+    border-top: 1px solid #d9d9d9;
+}
+main .nav .nth2{
+    width: 90%;
+    height: 330px;
+    padding-left: 23px;
+    margin-top: 100px;
+}
+main .nav .nth2 li{
+    float: left;
+    width: 100%;
+    height: 27px;
+}
+main .nav .nth2 li a{
+    height: 13px;
+    float: left;
+    padding: 7px 0px;
+    color: #000000;
+    font-size: 12px;
+}

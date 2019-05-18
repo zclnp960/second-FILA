@@ -1,0 +1,53 @@
+@import "style";
+@import "header";
+@import "footer";
+@import "main";
+#main-container{
+    width: 18%;
+    float: left;
+}
+.list-warp{
+    width: 77%;
+    min-height: 740px;
+    float: left;
+}
+.list-warp .list-nav{
+    width: 100%;
+    height: 46px;
+    //float: right;
+}
+.list-warp .list-nav ul li{
+    float: left;
+    margin-right: 19px;
+}
+.list-warp .list-nav ul li a{
+    display: block;
+    color: #03224b;
+    font-weight:bolder ;
+}
+.list-warp .list-nav .right{
+    width: 433px;
+    height: 46px;
+    float: right;
+}
+.list-warp .list-nav .right p{
+    float: left;
+    width: 94px;
+    margin-right: 19px;
+}
+.list-warp .cathList ul{ 
+    width: 100%;
+}
+.list-warp .cathList ul li{
+    float: left;
+    margin-right: 9px;
+}
+.absolute{
+    width: 118px;
+    height: 40px;
+    position: fixed;
+    right: 0px;
+    bottom: 138px;
+    border: 1px solid;
+    background: url(../img/kefu.jpg) no-repeat center center;
+}

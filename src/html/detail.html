@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="/css/detail.css"/>
+		<script type="text/javascript" src="/libs/art-template/template-web.js"></script>
+	</head>
+	<body>
+		<div id="header-container"></div>
+		<div id="main-container"></div>
+		<div class="detail-warp">
+		</div>
+		<script type="text/html" id="detail-template">
+		
+				<div class="xiang">
+				<div class="top">
+					<div class="top-one"><img src="{{imgs}}"/></div>
+					<div class="top-two"><img src="{{imgs}}"/></div>
+					<div class="top-three">
+						<p>其他颜色/点击查看</p>
+						<div class="a">
+							<dl>
+								<dt></dt>
+								<dd>粉</dd>
+							</dl>
+							<dl>
+								<dt></dt>
+								<dd>绿</dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+				<div class="mid">
+					<div class="mid-left"><img src="{{imgs}}"/></div>
+					<div class="mid-right"><img src="{{imgs}}"/></div>
+				</div>
+				<div class="de1"></div>
+				<div class="last">
+					<div class="last-left"><img src="{{imgs}}"/></div>
+					<div class="last-mid"><img src="{{imgs}}"/></div>
+					<div class="last-right"><img src="{{imgs}}"/></div>
+				</div>
+				<div class="de2"></div>
+			</div>
+			<div class="miaoshu">
+				<div class="tittle">{{title}}</div>
+				<div class="like">收藏</div>
+				<div class="share">分享</div>
+				<div class="newPrice">￥<span>{{newPrice}}</span></div>
+				<div class="oldPrice">吊牌价  ￥<span>{{oldPrice}}</span></div>
+				<div class="youhui"></div>
+				<ul class="color">
+					<li style="font-weight: bolder;">颜色</li>
+					<li>粉</li>
+					<li>绿</li>
+				</ul>
+				<ul class="size">
+					<li style="font-weight: bolder;">选择尺码</li>
+					<li>XS</li>
+					<li>S</li>
+					<li>M</li>
+					<li>L</li>
+					<li>XL</li>
+					<li>2XL</li>
+				</ul>
+				<div class="choiceSize">请选择颜色，尺码</div>
+				<div class="shop" id="btn_car">加入购物车</div>
+			</div>
+		</script>
+		<div id="footer-container"></div>
+		<script type="text/javascript" src="/libs/requirejs/require.js" data-main="/js/detail.js"></script>
+	</body>
+</html>

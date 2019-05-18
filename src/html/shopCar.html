@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="/css/shopCar.css"/>
+		<script type="text/javascript" src="/libs/art-template/template-web.js"></script>
+	</head>
+	<body>
+		<div id="header-container"></div>
+		<div class="nav">购物车</div>
+		<div class="center">
+			<div class="address">
+				<p class="p-mes">收货人信息</p>
+				<div class="mes">
+					<a href="#"></a>
+					<a href="#">添加收货信息</a>
+				</div>
+				<input type="checkbox" id="checkAll"/>
+				<p class="s-mes">商品信息</p>
+				<ul>
+					
+					<li style="margin-right: 140px;">单价</li>
+					<li style="margin-right: 95px;">数量</li>
+					<li style="margin-right: 117px;">小计</li>
+					<li style="margin-right: 111px;">操作</li>
+					
+				</ul>
+			</div>
+			<ul class="recommond" id="recommond">
+			</ul>
+			<div class="youhui">可用的优惠券</div>
+			<div class="youhuiquan"><img src="/img/youhuiquan.jpg"/></div>
+			<div class="end">
+				<ul class="two">
+					<li style="width: 63px;"><p class="num" style="float: left;width: 10px;"></p>件商品</li>
+					<li>商品总价：￥<p class="zongjia"></p></li>
+					<li>满10000减10000</li>
+					<li>注册送1000</li>
+					<li>免运费</li>
+					<li>订单结算：￥<p class="jiesuan"></p></li>
+				</ul>
+			</div>
+		</div>
+		<div class="pay">
+			<div class="payFor">去结算</div>
+		</div>
+		<script type="text/html" id="cart-template">
+			{{each cart item}}
+				<li deta-id="{{item.id}}">
+					<!--<input type="checkbox" id="checkAll" /><span>普通商品</span>-->
+					<div class="shangp-warp">
+						<input type="checkbox" id="checkbox1" class="checkbox1" />
+						<a href="javascript:;" class="shangp"><img src="{{item.imgs}}"/></a>
+						<p class="title">{{item.title}}</p>
+						<div class="price">￥<b id="price">{{item.newPrice}}</b></div>
+						<div class="number">
+							<p class="jian">-</p>
+							<input type="text" class="mide" value="{{item.num}}" />
+							<!--<b class="mide">1</b>-->
+							<p class="jia">+</p>
+						</div>
+						<div class="all-price">￥<b id="all-price" class="allprice">{{item.newPrice}}</b></div>
+						<p class="shanchu">删除</p>
+					</div>
+				</li>
+				{{/each}}
+		</script>
+		<div id="footer-container"></div>
+		<script type="text/javascript" src="/libs/requirejs/require.js" data-main="/js/shopCar.js"></script>
+	</body>
+</html>

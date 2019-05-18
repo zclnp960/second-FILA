@@ -1,0 +1,90 @@
+@import "header";
+@import "footer";
+@import "style";
+main{
+    width: 100%;
+    height: 740px;
+}
+main .nav{
+    width: 333px;
+    height: 300px;
+    margin: 0px auto;
+    padding-top: 60px;
+    
+}
+main .nav .logo{
+    width: 170px;
+    height: 49px;
+    margin: 0px auto;
+}
+main .nav .logo p{
+    float: left;
+    width: 90px;
+    height: 49px;
+    line-height: 49px;
+    font-size: 18px;
+    color: #222222;
+}
+main .nav .logo a{
+    margin-top: 10px;
+    float: right;
+    width: 80px;
+    height: 30px;
+    background: url(../img/login-logo.png) no-repeat center center;
+}
+main .nav form{
+    width: 333px;
+    height: 200px;
+}
+main .nav form .number{
+    width: 331px;
+    height: 38px;
+    outline: none;
+    border:1px solid #e8e8e8;
+    box-sizing: border-box;
+    padding-left: 12px;
+}
+main .nav form .pas{
+    width: 207px;
+    height: 38px;
+    outline: none;
+    border:1px solid #e8e8e8;
+    border-right:none ;
+    box-sizing: border-box;
+    padding-left: 12px;
+    margin: 10px 0px;
+}
+main .nav form .yz{
+    width: 124px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 20px;
+    font-weight: bolder;
+    float: right;
+    border:1px solid #e8e8e8;
+    border-left: none;
+    background-color:#138496;
+    margin: 10px 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+main .nav form a{
+    float: left;
+    margin-top: 10px;
+    width: 333px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    background-color: #03234c;
+    color: #ffffff;
+}
+main .nav p{
+    width: 333px;
+    height: 38px;
+    line-height: 57px;
+    text-align: center;
+}
+main .nav p a{
+    color: #666666;
+    font-size: 12px;
+}

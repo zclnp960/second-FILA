@@ -1,0 +1,68 @@
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: #03234c;
+    float: left;
+}
+footer .end{
+    height: 50px;
+    width: 90%;
+    margin: 0px auto;
+}
+footer .end ul{
+    height: 50px;
+    width: 220px;
+    float: left;
+}
+footer .end ul li{
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    margin-right: 23px;
+}
+footer .end ul li a{
+    color: #ffffff;
+    font-size: 12px;
+}
+footer .end .end-warp{
+    width: 480px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+}
+footer .end .end-warp p:nth-child(1){
+    float: left;
+    width: 149px;
+    height: 50px;
+    line-height: 50px;
+    color: #ffffff;
+    font-size: 12px;
+}
+footer .end .end-warp .web{
+    float: left;
+    height: 50px;
+    width: 47px;
+    background: url(../img/web.jpg) no-repeat center center;
+}
+footer .end .end-warp .wx{
+    float: left;
+    height: 50px;
+    width: 37px;
+    background: url(../img/wx.jpg) no-repeat center center;
+}
+footer .end .end-warp .number{
+    float: right;
+    width: 220px;
+    height: 50px;
+    line-height: 50px;
+    color: #ffffff;
+    font-size: 12px;
+}
+footer .end p:last-child{
+    float: right;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    color: #888888;
+    font-size: 12px;
+}
